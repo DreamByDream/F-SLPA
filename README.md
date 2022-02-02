@@ -5,16 +5,20 @@ This repository contains a faster version of SLPA implementation. SLPA, as known
 https://blog.csdn.net/weixin_46348799/article/details/108296675
 
 # run
-    cd SLPA_C++v1.3
-    make
-    ./SLPA -i ../input/test.e -t 10 -M 10 -d ../output/
-    其它参数：
-    There are more options you can try:
-        -r a specific threshold in [0,0.5) 
-        -run number ofrepetitions 
-        -d output directory
-        -L set to 1 to use only the largest connected component 
-        -t maximum iteration(default:100)
-        -ov set to 0 to perform disjoint detection
-        -M number of threads(C++,multi-threading)
-    更多运行介绍见：[pdf](./SLPA_C++v1.3/Readme.pdf)
+```bash
+cd SLPA_C++v1.3
+make
+./SLPA -i ../input/test.e -t 10 -M 10 -d ../output/
+```
+其它参数：
+```
+There are more options you can try:
+    -r a specific threshold in [0,0.5) 
+    -run number ofrepetitions 
+    -d output directory
+    -L set to 1 to use only the largest connected component 
+    -t maximum iteration(default:100)
+    -ov set to 0 to perform disjoint detection
+    -M number of threads(C++,multi-threading)
+```
+更多运行介绍见：[pdf](./SLPA_C++v1.3/Readme.pdf)
